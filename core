@@ -101,7 +101,7 @@ install() {
   esac
 
   # actve
-  log::info "[$(timestamp)][desktop] active app without warning which app is damaged and can't be opened ..."
+  log::info "[$(timestamp)][desktop] activing app without warning which 'app is damaged and can't be opened' ..."
   sudo xattr -rd com.apple.quarantine /Applications/${app_name}
   if [ "$?" != "0" ]; then
     log::error "[$(timestamp)][desktop] failed to active app: ${app_name} (command: sudo xattr -rd com.apple.quarantine /Applications/${app_name})."

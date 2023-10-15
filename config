@@ -1,0 +1,13 @@
+#!/bin/bash
+
+export DESKTOP_CORE_NAME="arc"
+export DESKTOP_CORE_BIN_NAME="$DESKTOP_CORE_NAME"
+export DESKTOP_CORE_VERSION=v1.12.1-42373
+export DESKTOP_CORE_ORG="arc"
+
+export DESKTOP_CORE_RELEASE_DOWNLOAD="https://releases.arc.net/release"
+
+export DESKTOP_CORE_CHECKSUMS=(
+  v1.12.1-42373#darwin#arm64#53861217946b7a97bbd1aa9e46179c268fb3b5e2f38ff94f360a87ccbaaee0b8
+  v1.12.1-42373#darwin#amd64#53861217946b7a97bbd1aa9e46179c268fb3b5e2f38ff94f360a87ccbaaee0b8
+)
